@@ -1,5 +1,4 @@
 def solution(A):
-    # write your code in Python 2.7
     LenA = len(A)
     
     if sum(A[1:LenA]) == 0:
