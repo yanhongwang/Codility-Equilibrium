@@ -36,5 +36,5 @@ def solution(A):
     LenA = len(A) + 1
     
     for element in xrange(1, LenA):
-        if A.count(element) == 0:
+        if A.count( element ) == 0:
             return element
