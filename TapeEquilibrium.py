@@ -53,7 +53,7 @@ def solution(A):
     LenA = len( A )
     MinDiff = 100000000
     
-    for Index in xrange(1, LenA):
+    for Index in xrange( 1, LenA ):
         Diff = abs( sum(A[:Index]) - sum(A[Index:]) )
         if MinDiff > Diff:
             MinDiff = Diff
