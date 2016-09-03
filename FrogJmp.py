@@ -33,7 +33,7 @@ Complexity:
 Copyright 2009–2016 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited. 
 """
 
-def solution(X, Y, D):
+def solution( X, Y, D ):
     TotalD = X
     Times = 0
     
