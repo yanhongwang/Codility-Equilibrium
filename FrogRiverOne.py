@@ -54,7 +54,7 @@ Copyright 2009–2016 by Codility Limited. All Rights Reserved. Unauthorized cop
 def solution(X, A):
     
     try:
-        return A.index(X)
+        return A.index( X )
     except ValueError:
         print "List does not contain value"
         return -1
