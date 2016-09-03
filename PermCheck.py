@@ -54,7 +54,7 @@ Copyright 2009–2016 by Codility Limited. All Rights Reserved. Unauthorized cop
 """
 
 def solution(A):
-    LenA = max(A)
+    LenA = max( A )
     
     if sum(xrange(1, LenA + 1 ) ) > sum(A):
         return 0
