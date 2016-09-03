@@ -20,5 +20,5 @@ In your solution, focus on correctness. The performance of your solution will no
 Copyright 2009–2016 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited. 
 """
 
-def solution(A, K):
+def solution( A, K ):
     return A[-K:]+A[:-K]
