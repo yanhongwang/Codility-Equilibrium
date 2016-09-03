@@ -23,7 +23,7 @@ Complexity:
 Copyright 2009–2016 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited. 
 """
 
-def solution(N):
+def solution( N ):
     
     GapMax = 0
     GapNum = 0
