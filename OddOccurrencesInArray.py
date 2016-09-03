@@ -51,4 +51,4 @@ def solution(OriA):
         NewA.remove(Odd)
         OriA = NewA
     
-    return OriA[0]
+    return OriA[ 0 ]
