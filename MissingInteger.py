@@ -34,7 +34,7 @@ def solution(A):
     
     for ValueA in xrange(1, MaxA):
         try:
-            A.index(ValueA)
+            A.index( ValueA )
         except ValueError:
             return ValueA
         else:
